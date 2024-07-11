@@ -7,7 +7,7 @@ const SubscriptionDetails = ({ subscription }) => {
       {subscription ? (
         <p>You have an active subscription. Enjoy premium content!</p>
       ) : (
-        <p>Please make a payment to subscribe!</p>
+        <p> Please make a payment to subscribe!</p>
       )}
     </div>
   );
