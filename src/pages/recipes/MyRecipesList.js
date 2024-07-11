@@ -19,8 +19,8 @@ import { useAuth } from "../../contexts/AuthContext";
 
 const MyRecipesList = () => {
    const navigate = useNavigate();
-  const [recipes, setRecipes] = useState([]); 
-  const { user } = useAuth();
+   const [recipes, setRecipes] = useState([]); 
+   const { user } = useAuth();
 
   useEffect(() => {
     const fetchRecipes = async () => {
